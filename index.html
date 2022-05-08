@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Cheetsheet</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Editing fonts using CSS</h1>
+    
+      <h2>CSS Font Properties</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Description</th>
+              <th>Example Declaration</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>font-family</td>
+            <td>specifies a prioritized list of one or more font family names and/or generic family names for the selected element</td>
+            <td class="code">.element {<br>font-family: Garamond, Georgia, serif;<br> }</td>
+          </tr>
+          <tr>
+            <td>font-weight</td>
+            <td>determines the thickness of the font. Can be expressed in words such as 'light', 'normal', 'bold', 'extra-bold', or numerically in multiples of 100 up to 900.</td>
+            <td class="code">.element {<br>font-weight: 900;<br> }</td>
+          </tr>
+          <tr>
+            <td>font-style</td>
+            <td>sets whether a font should be styled normal or in italics</td>
+            <td class="code">.element {<br>font-style: italic;<br> }</td>
+          </tr>
+          <tr>
+            <td>font-size</td>
+            <td>Sets the font size of a given element. This can be set in px, absolutes, relatives, percentages and Ems. Visit MDn 'font-size' for a thorough breakdown on potential values</td>
+            <td class="code">.element {<br>font-size: 2em;<br> }</td>
+          </tr>
+          <tr>
+          <td>text-transform</td>
+          <td>specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized</td>
+          <td class="code">.element {<br>text-transform: uppercase;<br> }</td>
+          </tr>
+        </table>
+        
+      <h2>Adjusting spacing</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Description</th>
+              <th>Example Declaration</th>
+            </tr>
+          </thead>
+
+          <tr>
+            <td>line-height</td>
+            <td>Used to alter the vertical spacing between lines of text. Unitless number is the preffered syntax for this declaration</td>
+            <td class="code">.element {<br>line-height: 2.5;<br> }</td>
+          </tr>
+
+          <tr>
+            <td>word-spacing</td>
+            <td>Changes how far apart individual words are using the term 'normal', percentages, px (preferred), or em</td>
+            <td class="code">.element {<br>word-spacing: 14px;<br> }</td>
+          </tr>
+
+          <tr>
+            <td>letter-spacing</td>
+            <td>Changes how far apart individual letters are using the term 'normal', px, or em</td>
+            <td class="code">.element {<br>letter-spacing: 1em;<br> }</td>
+          </tr>
+        </table>     
+
+  </body>
+</html>
