@@ -1,0 +1,43 @@
+body {
+  font-family: 'Ariel', sans-serif;
+}
+
+h1, h2 {
+  color: coral ;
+  text-align: center;
+  padding: 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid indianred;
+}
+
+thead th:nth-child(1) {
+  width: 15%;
+}
+
+thead th:nth-child(2) {
+  width: 50%
+}
+
+th, td {
+  padding: 20px;
+}
+
+tr {
+  background-color: blanchedalmond;
+  border: 2px solid indianred;
+}
+
+th {
+  background-color: coral;
+  color: white;
+}
+.code {
+  font-family: 'Courier';
+  background-color: black;
+  color: cyan;
+}
